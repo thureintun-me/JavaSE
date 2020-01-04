@@ -7,6 +7,12 @@ public class Person {
     public Person(){
         System.out.println("Person Constructor is called...");
     }
+
+    public Person(String name) {
+        this.name = name;
+        System.out.println("Person Constructor 2 is called...");
+    }
+
     public String getName() {
         return name;
     }

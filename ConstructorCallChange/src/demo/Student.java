@@ -9,6 +9,13 @@ public class Student extends Person {
         System.out.println("Student Constructor is called...");
     }
 
+    public Student(String name,String school, double grade) {
+        super(name);
+        this.school = school;
+        this.grade = grade;
+        System.out.println("Student Constructor 2 is called...");
+    }
+
     public String getSchool() {
         return school;
     }
